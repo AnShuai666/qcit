@@ -1,0 +1,1 @@
+project(qcit_math)

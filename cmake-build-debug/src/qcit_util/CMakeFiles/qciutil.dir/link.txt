@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libqciutil.so -o libqciutil.so CMakeFiles/qciutil.dir/arguments.cpp.o CMakeFiles/qciutil.dir/file_system.cpp.o CMakeFiles/qciutil.dir/ini_parser.cpp.o CMakeFiles/qciutil.dir/system.cpp.o 

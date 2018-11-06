@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/qcit_core/../qcit_core/image_exif.h
+
+../src/qcit_core/../qcit_util/defines.h
+
+../src/qcit_core/../qcit_util/strings.h
+sstream
+-
+string
+-
+iomanip
+-
+stdexcept
+-
+algorithm
+-
+cstdint
+-
+qcit_util/defines.h
+../src/qcit_core/../qcit_util/qcit_util/defines.h
+
+../src/qcit_core/../qcit_util/system.h
+
+/home/yhl/qcit/reconstruction/src/qcit_core/image_exif.cpp
+iostream
+-
+stdexcept
+-
+cmath
+-
+limits
+-
+qcit_util/system.h
+/home/yhl/qcit/reconstruction/src/qcit_core/qcit_util/system.h
+qcit_util/strings.h
+/home/yhl/qcit/reconstruction/src/qcit_core/qcit_util/strings.h
+qcit_core/image_exif.h
+/home/yhl/qcit/reconstruction/src/qcit_core/qcit_core/image_exif.h
+

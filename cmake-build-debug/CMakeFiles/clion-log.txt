@@ -1,0 +1,7 @@
+/home/yhl/下载/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yhl/qcit/reconstruction
+PNG found: /usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libz.so
+JPEG found: /usr/lib/x86_64-linux-gnu/libjpeg.so
+TIFF found: /usr/lib/x86_64-linux-gnu/libtiff.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yhl/qcit/reconstruction/cmake-build-debug

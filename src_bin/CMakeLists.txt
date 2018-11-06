@@ -1,0 +1,8 @@
+set(CMAKE_BUILD_TYPE Release)
+add_subdirectory(qcit00_3D_view)
+add_subdirectory(qcit01_feature_extraction)
+add_subdirectory(qcit02_feature_matching)
+add_subdirectory(qcit03_incremental_sfm)
+add_subdirectory(qcit04_dense_reconstruction)
+add_subdirectory(qcit05_mesh)
+add_subdirectory(qcit06_texturing)

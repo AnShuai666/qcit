@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libqcit_util.so -o libqcit_util.so CMakeFiles/qcit_util.dir/arguments.cpp.o CMakeFiles/qcit_util.dir/file_system.cpp.o CMakeFiles/qcit_util.dir/ini_parser.cpp.o CMakeFiles/qcit_util.dir/system.cpp.o 

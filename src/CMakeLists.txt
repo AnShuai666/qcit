@@ -1,0 +1,8 @@
+set(CMAKE_BUILD_TYPE Release)
+add_subdirectory(qcit_sfm)
+add_subdirectory(qcit_core)
+add_subdirectory(qcit_math)
+add_subdirectory(qcit_mesh)
+add_subdirectory(qcit_mvs)
+add_subdirectory(qcit_texturing)
+add_subdirectory(qcit_util)

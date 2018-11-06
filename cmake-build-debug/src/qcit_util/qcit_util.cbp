@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="qcit_util"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src_bin\;CMake Files\src_bin\qcit03_incremental_sfm\;CMake Files\src_bin\qcit04_dense_reconstruction\;CMake Files\src_bin\qcit05_mesh\;CMake Files\src_bin\qcit06_texturing\;CMake Files\src_bin\qcit00_3D_view\;CMake Files\src_bin\qcit01_feature_extraction\;CMake Files\src_bin\qcit02_feature_matching\;CMake Files\src\;CMake Files\src\qcit_core\;CMake Files\src\qcit_math\;CMake Files\src\qcit_util\;CMake Files\src\qcit_sfm\;CMake Files\src\qcit_mesh\;CMake Files\src\qcit_mvs\;CMake Files\src\qcit_texturing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qcit_util">
+				<Option output="/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/libqcit_util.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yhl/qcit/reconstruction/src/qcit_util/.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 qcit_util"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qcit_util/fast">
+				<Option output="/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/libqcit_util.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yhl/qcit/reconstruction/src/qcit_util/.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 qcit_util/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yhl/qcit/reconstruction/cmake-build-debug/src/qcit_util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/aligned_allocator.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/aligned_memory.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/arguments.cpp">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/arguments.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/defines.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/exception.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/file_system.cpp">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/file_system.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/frame_timer.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/ini_parser.cpp">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/ini_parser.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/logging.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/strings.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/system.cpp">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/system.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/timer.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/tokenizer.h">
+			<Option target="qcit_util"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit03_incremental_sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit03_incremental_sfm\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit03_incremental_sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit03_incremental_sfm\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit04_dense_reconstruction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit04_dense_reconstruction\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit04_dense_reconstruction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit04_dense_reconstruction\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit05_mesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit05_mesh\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit05_mesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit05_mesh\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit06_texturing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit06_texturing\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit06_texturing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit06_texturing\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit00_3D_view/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit00_3D_view\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit01_feature_extraction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit01_feature_extraction\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src_bin/qcit02_feature_matching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src_bin\qcit02_feature_matching\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_core\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_core\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_math\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_math\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_util\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_util\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_sfm\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_mesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_mesh\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_mvs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_mvs\"/>
+		</Unit>
+		<Unit filename="/home/yhl/qcit/reconstruction/src/qcit_texturing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qcit_texturing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
