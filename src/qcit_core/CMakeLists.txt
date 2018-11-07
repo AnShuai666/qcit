@@ -28,12 +28,13 @@ endif ()
 include_directories(..)
 set(HEADERS
         defines.h
-
+        image_exif.h
+        camera.h
         )
 
 set(SOURCE_FILES
         image_exif.cpp
-
+        camera.cpp
         )
 add_library(qcit_core SHARED ${HEADERS} ${SOURCE_FILES})
 target_link_libraries(qcit_core util ${PNG_LIBRARIES})
