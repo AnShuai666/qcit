@@ -25,7 +25,7 @@ if (TIFF_FOUND)
     include_directories(${TIFF_INCLUDE_DIRS})
 endif ()
 
-include_directories(../)
+include_directories(..)
 set(HEADERS
         defines.h
 
