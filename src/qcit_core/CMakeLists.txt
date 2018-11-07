@@ -30,7 +30,7 @@ set(HEADERS
         defines.h
         image_exif.h
         camera.h
-        )
+        image_base.h)
 
 set(SOURCE_FILES
         image_exif.cpp
