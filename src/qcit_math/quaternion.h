@@ -1,5 +1,5 @@
 //
-// Created by yhl on 18-11-7.
+// Created by AnShuai on 18-11-7.
 //
 
 #ifndef RECONSTRUCTION_QUATERNION_H

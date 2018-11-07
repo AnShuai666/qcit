@@ -17,7 +17,7 @@ set(HEADERS
         permute.h
         plane.h
         quaternion.h
-        )
+        transform.h matrix_svd.h matrix_qr.h)
 
 set(SOURCE_FILES
         bezier_curve.cpp
