@@ -14,6 +14,9 @@ set(HEADERS
         bezier_curve.h
         matrix_tools.h
         octree_tools.h
+        permute.h
+        plane.h
+        quaternion.h
         )
 
 set(SOURCE_FILES
